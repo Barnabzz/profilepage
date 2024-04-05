@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(210, 235, 233);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.divtitre {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 130, 64);
+    width : 621px;
+    margin : 40px auto;
+    padding : 25px;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 3, .2);
+    border-radius: 10px;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: "Lora";
+}
+
+h2{
+    text-align: center;
+    padding: 30px auto;
+    color: rgb(35, 4, 68);
+}
+
+#Barnabé {
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.img-logo {
+    width: auto;
+    height: 50px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+}
+
+.whopper {
+   text-align: center;
+   background-color:rgb(155, 205, 210);
+   padding: 50px, auto;
+   border-radius: 10px;
+    width: 650px;
+    margin: 0px auto;
+    color : white;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin : 20px, auto;
+
+}
+
+.hover {
+    background-color:#ED8140;
+    color: white;
+    padding: 20px;
+    margin: 20ox;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.hover:hover {
+    background-color: #9ACDD2;
+}
+
+.footpage {
+    margin-top : 30px;
+}
